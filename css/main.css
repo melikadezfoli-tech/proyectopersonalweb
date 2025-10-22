@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.fullContainer {}
+
+.gridContainer {}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria.flexContainer>* {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.caja {
+    border: 1px solid black;
+    height: 300px;
+}
+
+
+
+/* ==================================
+            768px
+=======================================0
+*/
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 80%;
+    }
+
+    .galeria.flexContainer>* {
+        width: 40%;
+    }
+}
+
+/*768*/
+
+/* ==================================
+            992px
+=======================================0
+*/
+
+@media screen and (min-width:992px) {
+    .container {
+        width: 75%;
+    }
+
+    .galeria.flexContainer>* {
+        width: 30%;
+    }
+}
+
+/*768*/
+
+/* ==================================
+            1200px
+=======================================0
+*/
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 75%;
+        max-width: 1300px;
+    }
+
+    .galeria.flexContainer>* {
+        width: 23%;
+    }
+}
+
+/*768*/
