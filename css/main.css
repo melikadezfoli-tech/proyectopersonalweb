@@ -114,7 +114,9 @@ body {
 }
 
 .itemgrid0 {
-
+    display: grid;
+    align-items: end;
+    justify-content: center;
     background: rgb(105, 172, 175);
     grid-column: 1 / -1;
     grid-row: 1 / 2;
@@ -128,6 +130,7 @@ h1{
 
 .itemgrid1 {
 
+    display: grid;
     background: rgb(169, 209, 210);
     text-align: center;
     box-sizing: border-box;
@@ -135,27 +138,29 @@ h1{
 }
 .itemgrid2 {
 
+    display: grid;
     background: rgb(169, 209, 210);
     text-align: center;
     box-sizing: content-box;
     box-sizing: border-box;
 }
 .itemgrid3 {
-
+    display: grid;
     background: rgb(169, 209, 210);
     text-align: center;
-   box-sizing: content-box;
-   box-sizing: border-box;
+    box-sizing: content-box;
+    box-sizing: border-box;
 }
 .itemgrid4 {
-
+    display: grid;
     background: rgb(169, 209, 210);
     text-align: center;
     box-sizing: border-box;
    
 }
 .itemgrid5 {
-
+    display: grid;
+    align-items: end;
     background: rgb(111, 207, 194);
     align-items: center;
     text-align: center;
