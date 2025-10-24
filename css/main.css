@@ -78,7 +78,7 @@ li {
     font-size: 2em;
 }
 
-.divheader {
+/*.divheader {
     box-sizing: content-box;
     place-items: center;
     position: fixed;
@@ -88,14 +88,13 @@ li {
     font-weight: bolder;
     height: 100%;
     width: 100%;
-}
+}*/
 
 
 /*.imghead {
 
     display: grid;
     place-items: center;
-    border-radius: 50%;
     object-fit: cover;
     width: 100%;
 
@@ -106,18 +105,12 @@ body {
 }
 
 .gridcontainer {
-
-    /*position: relative;*/
-    /*margin-top: 4rem;*/
+  
     display: grid;
     grid-template-columns: repeat(3,minmax(0, auto));
     grid-template-rows: repeat(3,1fr);
-    grid-gap: 5px;
     background-size:cover;
-   
-    
-     
-   
+       
 }
 
 .itemgrid0 {
@@ -135,58 +128,42 @@ h1{
 
 .itemgrid1 {
 
-    background: rgb(128, 128, 128);
+    background: rgb(169, 209, 210);
     text-align: center;
-    text-align: center;
-    border: black 5px solid;
-    width: 100px;
-    height: 100px; 
+    box-sizing: border-box;
+    box-sizing: content-box;
 }
 .itemgrid2 {
 
-    background: rgb(128, 128, 128);
+    background: rgb(169, 209, 210);
     text-align: center;
-    text-align: center;
-    border: black 5px solid;
-    width: 100px;
-    height: 100px; 
+    box-sizing: content-box;
+    box-sizing: border-box;
 }
 .itemgrid3 {
 
-    background: rgb(128, 128, 128);
+    background: rgb(169, 209, 210);
     text-align: center;
-    text-align: center;
-    border: black 5px solid;
-    width: 100px;
-    height: 100px; 
+   box-sizing: content-box;
+   box-sizing: border-box;
 }
 .itemgrid4 {
 
-    background: rgb(128, 128, 128);
+    background: rgb(169, 209, 210);
     text-align: center;
-    text-align: center;
-    border: black 5px solid;
-    width: 100px;
-    height: 100px; 
+    box-sizing: border-box;
+   
 }
 .itemgrid5 {
 
-    background: rgb(128, 128, 128);
+    background: rgb(111, 207, 194);
+    align-items: center;
     text-align: center;
-    text-align: center;
-    border: black 5px solid;
-    width: 100px;
-    height: 100px; 
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+        
 }
-.itemgrid6 {
 
-    background: rgb(128, 128, 128);
-    text-align: center;
-    text-align: center;
-    border: black 5px solid;
-    width: 100px;
-    height: 100px; 
-}
 
 footer > p{
     position: fixed;
